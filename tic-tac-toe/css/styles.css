@@ -1,0 +1,67 @@
+body {
+    height:100%;
+    
+    
+}
+header {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    justify-content: space-evenly;
+    
+    
+}
+
+.board {
+    /* margin: 20px; */
+    display: flex;
+    height: 300px;
+    width: 350px;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.sqr {
+    height: 100px;
+    width: 100px;
+    /* background-color: lightcoral; */
+    border-right: black solid 2px;
+    border-left: black  solid 2px;
+    border: black solid 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+   
+
+}
+
+.buttons {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+button {
+    margin: 30px;
+}
+
+.player-display {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    /* background-color: lightsalmon; */
+    padding: 20px;
+    text-align: center;
+}
+
+
+.symbol {
+    font-size: 4rem;
+}
